@@ -1,0 +1,16 @@
+{
+  "name": "gitignore-utils",
+  "version": "1.0.0",
+  "description": "Utilities for working with .gitignore files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "escalade": "^3.0.1",
+    "parse-gitignore": "^1.0.1"
+  }
+}
