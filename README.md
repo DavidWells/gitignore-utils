@@ -7,7 +7,7 @@ const path = require('path')
 const { addRules } = require('gitignore-utils')
  
 async function ensureGitIgnore() {
-	const gitIgnorePath = path.resolve(__dirname, '.gitignore')
+  const gitIgnorePath = path.resolve(__dirname, '.gitignore')
   const gitIgnoreDetails = await addRules(gitIgnorePath, [
     {
       comment: '# Super secret stuff',
