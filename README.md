@@ -43,3 +43,7 @@ ensureGitIgnore()
 /folder
 */
 ```
+
+## Alt
+
+- https://github.com/kaelzhang/node-ignore
